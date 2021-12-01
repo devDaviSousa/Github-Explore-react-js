@@ -1,14 +1,36 @@
 section.repository-list{
  
-  margin: 40px;
-
+  
+  div{
+    background: var(--green);
+    width: 600px;
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    color: white;
+    
+  }
   h1{
     margin-bottom: 16px;
+   
   }
 
   ul{
     list-style: none;
+    
     li{
+    background:var(--shape);
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 16px;
+    border-radius: 0.5rem;
+    color: var(--text-title);
+
       & +li{
         margin-top: 20px;
       }
@@ -21,6 +43,8 @@ section.repository-list{
         display: inline-block;
         margin-top: 16px;
         text-decoration: none;
+        color: #444;
+    
       }
     }
 
